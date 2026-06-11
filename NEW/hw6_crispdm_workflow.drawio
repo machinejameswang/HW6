@@ -1,0 +1,108 @@
+<mxfile host="app.diagrams.net" modified="2026-06-11T10:55:00.000Z" agent="Codex" version="26.0.0">
+  <diagram id="crispdm-50-startups" name="50 Startups CRISP-DM Workflow">
+    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Kaggle 50 Startups CRISP-DM Complete Workflow" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;fontStyle=1;fillColor=#1f2937;fontColor=#ffffff;strokeColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="310" y="20" width="980" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="data" value="Dataset&#xa;50_Startups_dataset.csv&#xa;Rows: 50&#xa;Target: Profit" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e0f2fe;strokeColor=#0284c7;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="step1" value="1. Business Understanding&#xa;Predict startup Profit&#xa;Supervised regression&#xa;Use predictive association language" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dbeafe;strokeColor=#2563eb;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="experts" value="Expert Panel&#xa;Marketing Expert&#xa;Top CEO&#xa;Governor / Policy Expert&#xa;R&amp;D Expert" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fef3c7;strokeColor=#d97706;" vertex="1" parent="1">
+          <mxGeometry x="690" y="120" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="2. Data Understanding&#xa;Shape / head / info&#xa;Missing: 0&#xa;Duplicates: 0&#xa;State distribution&#xa;Correlation matrix" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dcfce7;strokeColor=#16a34a;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="120" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="step3" value="3. Data Preparation&#xa;X/y split&#xa;Numerical features pass through&#xa;State: OneHotEncoder&#xa;ColumnTransformer + Pipeline&#xa;train_test_split 0.2, random_state 42" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ede9fe;strokeColor=#7c3aed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="step4" value="4. Modeling&#xa;LinearRegression&#xa;Model 1: R&amp;D only&#xa;Model 2: R&amp;D + Marketing&#xa;Model 3: Numerical features&#xa;Model 4: All features" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fae8ff;strokeColor=#c026d3;" vertex="1" parent="1">
+          <mxGeometry x="430" y="350" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="step5" value="5. Evaluation&#xa;Train-test metrics&#xa;R2 / MAE / RMSE&#xa;5-fold CV&#xa;CV R2 Mean / Std&#xa;CV RMSE Mean / Std" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fee2e2;strokeColor=#dc2626;" vertex="1" parent="1">
+          <mxGeometry x="780" y="350" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="featureSelection" value="Technical Feature Selection&#xa;Pearson correlation&#xa;SelectKBest F-regression&#xa;RFE&#xa;LASSO&#xa;Random Forest importance" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ccfbf1;strokeColor=#0f766e;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="350" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="results" value="Updated Results&#xa;R&amp;D CV R2: 0.9374&#xa;R&amp;D + Marketing CV R2: 0.9389&#xa;Administration gain: negative&#xa;State gain: negative" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#fef9c3;strokeColor=#ca8a04;" vertex="1" parent="1">
+          <mxGeometry x="250" y="650" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" value="Final Model Decision&#xa;Main model: R&amp;D Spend + Marketing Spend&#xa;Benchmark: R&amp;D Spend only&#xa;Reason: best CV R2 + business interpretability" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#dcfce7;strokeColor=#15803d;" vertex="1" parent="1">
+          <mxGeometry x="650" y="640" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="step6" value="6. Deployment Simulation&#xa;Sample input&#xa;R&amp;D: 120000&#xa;Administration: 130000&#xa;Marketing: 250000&#xa;State: New York&#xa;Predicted Profit: 150,042.94" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffedd5;strokeColor=#ea580c;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="630" width="310" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="outputs" value="Updated Artifacts&#xa;final_recommendation_updated.md&#xa;updated_technical_results_summary.csv&#xa;updated_chart_index.csv&#xa;8 regenerated PNG charts&#xa;startup_profit_pipeline.joblib&#xa;startup_profit_model_v1/v2.pkl" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f1f5f9;strokeColor=#475569;" vertex="1" parent="1">
+          <mxGeometry x="540" y="900" width="520" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="data" target="step1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="step1" target="experts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="experts" target="step2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="step2" target="step3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="300" />
+              <mxPoint x="220" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="step3" target="step4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="step4" target="step5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="step5" target="featureSelection">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="step5" target="results">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="590" />
+              <mxPoint x="400" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="featureSelection" target="decision">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="590" />
+              <mxPoint x="820" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="results" target="decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="decision" target="step6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="decision" target="outputs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeWidth=2;strokeColor=#374151;" edge="1" parent="1" source="step6" target="outputs">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="860" />
+              <mxPoint x="800" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

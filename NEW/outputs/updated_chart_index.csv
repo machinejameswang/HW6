@@ -1,0 +1,14 @@
+Chart,File,Purpose,Status
+CRISP-DM infographic,one_page_crispdm_feature_selection_infographic.png,One-page visual summary of CRISP-DM and feature selection,Existing root-level artifact
+Technical report PDF,feature_selection_technical_report.pdf,Full technical report export,Existing root-level artifact
+Pearson Correlation,outputs/algorithm_charts/01_pearson_correlation.png,Show direct numeric correlation with Profit,Regenerated 2026-06-11
+SelectKBest F Scores,outputs/algorithm_charts/02_selectkbest_f_scores.png,Rank features using f_regression scores,Regenerated 2026-06-11
+RFE Selection Strength,outputs/algorithm_charts/03_rfe_selection_strength.png,Show recursive feature elimination ranking,Regenerated 2026-06-11
+LASSO Coefficient Path,outputs/algorithm_charts/04_lasso_coefficient_path.png,Show coefficient shrinkage under L1 regularization,Regenerated 2026-06-11
+Random Forest Importance,outputs/algorithm_charts/05_random_forest_importance.png,Show nonlinear feature importance,Regenerated 2026-06-11
+Model Subset Curves,outputs/algorithm_charts/06_model_subset_curves.png,Compare RMSE and R2 by feature subset size,Regenerated 2026-06-11
+Actual vs Predicted,outputs/algorithm_charts/07_actual_vs_predicted.png,Check prediction alignment against actual Profit,Regenerated 2026-06-11
+Residual Analysis,outputs/algorithm_charts/08_residual_analysis.png,Inspect residual pattern and possible model bias,Regenerated 2026-06-11
+V1/V2 Expert Discussion,outputs/v1_v2_expert_discussion_final_recommendation.md,Five-round expert discussion and final recommendation,Updated in this pass
+Technical Results Summary,outputs/updated_technical_results_summary.csv,Machine-readable summary of the technical results,Updated in this pass
+Final Recommendation,outputs/final_recommendation_updated.md,Concise final recommendation for report or presentation,Updated in this pass

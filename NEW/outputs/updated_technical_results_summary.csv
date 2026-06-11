@@ -1,0 +1,36 @@
+Section,Item,Metric,Value,Interpretation
+Dataset,Rows,Count,50,Small dataset; use cross-validation and avoid overclaiming.
+Dataset,Missing values,Count,0,No missing-value handling needed for this dataset.
+Dataset,Duplicate rows,Count,0,No duplicate rows detected.
+Data Understanding,State distribution,New York,17,State samples are balanced but small.
+Data Understanding,State distribution,California,17,State samples are balanced but small.
+Data Understanding,State distribution,Florida,16,State samples are balanced but small.
+Correlation,Pearson,R&D Spend,0.972900,R&D Spend has the strongest direct linear association with Profit.
+Correlation,Pearson,Marketing Spend,0.747766,Marketing Spend has secondary predictive association.
+Correlation,Pearson,Administration,0.200717,Administration has weak direct linear association.
+Correlation,Feature correlation,R&D Spend vs Marketing Spend,0.724248,R&D and Marketing are correlated; avoid overinterpreting individual coefficients.
+Feature Selection,SelectKBest F-Regression,R&D Spend F-score,849.789,R&D Spend is the strongest statistical predictor.
+Feature Selection,SelectKBest F-Regression,Marketing Spend F-score,60.8815,Marketing Spend is useful but much weaker than R&D.
+Feature Selection,SelectKBest F-Regression,Administration F-score,2.015,Administration contributes limited statistical signal.
+Feature Selection,RFE,Selected features,"R&D Spend; Marketing Spend",RFE supports a compact two-feature model.
+Feature Selection,LASSO,Selected alpha,337.6347,LASSO regularization shrinks weaker predictors.
+Feature Selection,LASSO,R&D coefficient,36173.3,R&D remains dominant under regularization.
+Feature Selection,LASSO,Marketing coefficient,3290.92,Marketing remains a smaller secondary signal.
+Feature Selection,Random Forest Importance,R&D Spend,0.922798,Tree-based importance also confirms R&D dominance.
+Feature Selection,Random Forest Importance,Marketing Spend,0.066974,Marketing provides secondary importance.
+Feature Selection,Random Forest Importance,Administration,0.007221,Administration has low relative importance.
+Feature Selection,Random Forest Importance,State total,0.003008,State has very limited importance in this small dataset.
+Model Subset,R&D only,Test R2,0.926511,Simplest and strongest single train-test baseline.
+Model Subset,R&D only,Test RMSE,7714.3349,Lowest single split RMSE among listed subsets.
+Model Subset,R&D + Marketing,Test R2,0.916838,Recommended main model due to business meaning and CV strength.
+Model Subset,R&D + Marketing,Test RMSE,8206.3288,Competitive error with stronger business interpretability.
+Model Subset,Numeric all,Test R2,0.900065,Adding Administration reduces single split performance.
+Model Subset,R&D + Marketing + State,Test R2,0.915855,State does not materially improve the two-feature model.
+Model Subset,All predictors,Test R2,0.898727,Most complex model performs worse on the listed split.
+Cross Validation,R&D only,CV R2 Mean,0.9374,Very strong baseline; R&D dominates prediction.
+Cross Validation,R&D + Marketing,CV R2 Mean,0.9389,Best CV R2 Mean; selected final model in V1 and V2.
+Cross Validation,Numerical Features,CV R2 Mean,0.9338,Administration does not improve CV performance.
+Cross Validation,All Features,CV R2 Mean,0.9279,State does not improve CV performance.
+Deployment,V2 sample prediction,Predicted Profit,150042.94,Prediction for R&D=120000; Administration=130000; Marketing=250000; State=New York.
+Final Recommendation,Main model,Features,"R&D Spend; Marketing Spend",Use as the primary explainable business model.
+Final Recommendation,Benchmark model,Features,R&D Spend,Keep as the simplest benchmark and executive sanity check.
