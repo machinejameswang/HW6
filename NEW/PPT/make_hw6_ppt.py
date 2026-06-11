@@ -7,11 +7,12 @@ from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 from pptx.util import Inches, Pt
 
 
-BASE_DIR = Path(__file__).resolve().parent
+PPT_DIR = Path(__file__).resolve().parent
+BASE_DIR = PPT_DIR.parent
 OUTPUT_DIR = BASE_DIR / "outputs"
 CHART_DIR = OUTPUT_DIR / "algorithm_charts"
-PPTX_PATH = OUTPUT_DIR / "hw6_50_startups_crispdm_20_slides_with_notes.pptx"
-NARRATION_PATH = OUTPUT_DIR / "hw6_20_slide_voiceover_script.txt"
+PPTX_PATH = PPT_DIR / "hw6_50_startups_crispdm_20_slides_with_notes.pptx"
+NARRATION_PATH = PPT_DIR / "hw6_20_slide_voiceover_script.txt"
 
 
 COLORS = {

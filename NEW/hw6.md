@@ -133,11 +133,11 @@ Profit.
 | RFE ranking | [rfe_ranking.csv](outputs/rfe_ranking.csv) |
 | LASSO coefficients | [lasso_coefficients.csv](outputs/lasso_coefficients.csv) |
 | Random Forest importance | [random_forest_importance.csv](outputs/random_forest_importance.csv) |
-| 20-slide voice narration plan | [hw6_20_slide_voice_narration_plan.md](outputs/hw6_20_slide_voice_narration_plan.md) |
-| 20-slide voice narration CSV | [hw6_20_slide_voice_narration_plan.csv](outputs/hw6_20_slide_voice_narration_plan.csv) |
-| 20-slide PowerPoint with notes | [hw6_50_startups_crispdm_20_slides_with_notes.pptx](outputs/hw6_50_startups_crispdm_20_slides_with_notes.pptx) |
-| 20-slide voice-over script | [hw6_20_slide_voiceover_script.txt](outputs/hw6_20_slide_voiceover_script.txt) |
-| PowerPoint generator script | [make_hw6_ppt.py](make_hw6_ppt.py) |
+| 20-slide voice narration plan | [hw6_20_slide_voice_narration_plan.md](PPT/hw6_20_slide_voice_narration_plan.md) |
+| 20-slide voice narration CSV | [hw6_20_slide_voice_narration_plan.csv](PPT/hw6_20_slide_voice_narration_plan.csv) |
+| 20-slide PowerPoint with notes | [hw6_50_startups_crispdm_20_slides_with_notes.pptx](PPT/hw6_50_startups_crispdm_20_slides_with_notes.pptx) |
+| 20-slide voice-over script | [hw6_20_slide_voiceover_script.txt](PPT/hw6_20_slide_voiceover_script.txt) |
+| PowerPoint generator script | [make_hw6_ppt.py](PPT/make_hw6_ppt.py) |
 | Final pipeline | [startup_profit_pipeline.joblib](outputs/startup_profit_pipeline.joblib) |
 | V1 model | [startup_profit_model_v1.pkl](startup_profit_model_v1.pkl) |
 | V2 model | [startup_profit_model_v2.pkl](startup_profit_model_v2.pkl) |
