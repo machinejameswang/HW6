@@ -1,4 +1,5 @@
 Chart,File,Purpose,Status
+Excalidraw A4 Infographic,outputs/hw6_crispdm_excalidraw_infographic_a4_2k_upscaled.png,A4 portrait 2K visual summary based on hw6.md,Generated 2026-06-11
 CRISP-DM infographic,one_page_crispdm_feature_selection_infographic.png,One-page visual summary of CRISP-DM and feature selection,Existing root-level artifact
 Technical report PDF,feature_selection_technical_report.pdf,Full technical report export,Existing root-level artifact
 Pearson Correlation,outputs/algorithm_charts/01_pearson_correlation.png,Show direct numeric correlation with Profit,Regenerated 2026-06-11

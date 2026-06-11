@@ -16,6 +16,12 @@ Preparation, Modeling, Evaluation, and Deployment.
 
 ## 2. Complete Workflow Diagram
 
+Excalidraw-style A4 portrait infographic:
+
+[hw6_crispdm_excalidraw_infographic_a4_2k_upscaled.png](outputs/hw6_crispdm_excalidraw_infographic_a4_2k_upscaled.png)
+
+![HW6 CRISP-DM Excalidraw Infographic](outputs/hw6_crispdm_excalidraw_infographic_a4_2k_upscaled.png)
+
 Draw.io source file:
 
 [hw6_crispdm_workflow.drawio](hw6_crispdm_workflow.drawio)
@@ -137,4 +143,3 @@ The final recommendation is to use `R&D Spend + Marketing Spend` as the main
 explainable prediction model and keep `R&D Spend` alone as the benchmark. The
 results should be described as predictive associations, not causal conclusions,
 because the dataset is observational and contains only 50 records.
-
