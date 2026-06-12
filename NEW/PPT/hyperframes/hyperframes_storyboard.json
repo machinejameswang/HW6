@@ -1,0 +1,38 @@
+{
+  "project": "HW6 Kaggle 50 Startups CRISP-DM Narrated Presentation",
+  "format": "20-slide business presentation video",
+  "visual_style": "steady, professional, data-science presentation",
+  "voice": {
+    "persona": "calm professional male narrator",
+    "local_voice": "Microsoft David Desktop",
+    "rate": -1,
+    "volume": 95
+  },
+  "assets": {
+    "pptx_with_embedded_audio": "../hw6_50_startups_crispdm_20_slides_male_voice_embedded.pptx",
+    "audio_manifest": "../audio/audio_manifest.csv",
+    "audio_folder": "../audio"
+  },
+  "frames": [
+    {"slide": 1, "title": "HW6: Kaggle 50 Startups Profit Prediction", "audio": "../audio/slide_01_male_narration.wav", "motion": "slow title reveal", "duration_mode": "match_audio"},
+    {"slide": 2, "title": "Project Objective", "audio": "../audio/slide_02_male_narration.wav", "motion": "gentle push-in", "duration_mode": "match_audio"},
+    {"slide": 3, "title": "Dataset Overview", "audio": "../audio/slide_03_male_narration.wav", "motion": "left-to-right table emphasis", "duration_mode": "match_audio"},
+    {"slide": 4, "title": "CRISP-DM Workflow", "audio": "../audio/slide_04_male_narration.wav", "motion": "flow arrow highlight", "duration_mode": "match_audio"},
+    {"slide": 5, "title": "Business Understanding", "audio": "../audio/slide_05_male_narration.wav", "motion": "steady callout focus", "duration_mode": "match_audio"},
+    {"slide": 6, "title": "Expert Panel View", "audio": "../audio/slide_06_male_narration.wav", "motion": "four-card sequential highlight", "duration_mode": "match_audio"},
+    {"slide": 7, "title": "Data Understanding", "audio": "../audio/slide_07_male_narration.wav", "motion": "checklist emphasis", "duration_mode": "match_audio"},
+    {"slide": 8, "title": "Feature Meaning", "audio": "../audio/slide_08_male_narration.wav", "motion": "feature cards highlight", "duration_mode": "match_audio"},
+    {"slide": 9, "title": "Correlation Results", "audio": "../audio/slide_09_male_narration.wav", "motion": "bar chart focus", "duration_mode": "match_audio"},
+    {"slide": 10, "title": "Data Preparation", "audio": "../audio/slide_10_male_narration.wav", "motion": "pipeline path highlight", "duration_mode": "match_audio"},
+    {"slide": 11, "title": "Modeling Strategy", "audio": "../audio/slide_11_male_narration.wav", "motion": "regression line emphasis", "duration_mode": "match_audio"},
+    {"slide": 12, "title": "Model Experiments", "audio": "../audio/slide_12_male_narration.wav", "motion": "model cards sequence", "duration_mode": "match_audio"},
+    {"slide": 13, "title": "Evaluation Metrics", "audio": "../audio/slide_13_male_narration.wav", "motion": "dashboard metric focus", "duration_mode": "match_audio"},
+    {"slide": 14, "title": "Model Comparison", "audio": "../audio/slide_14_male_narration.wav", "motion": "highlight final model row", "duration_mode": "match_audio"},
+    {"slide": 15, "title": "Feature Selection Evidence", "audio": "../audio/slide_15_male_narration.wav", "motion": "evidence funnel reveal", "duration_mode": "match_audio"},
+    {"slide": 16, "title": "Random Forest Importance", "audio": "../audio/slide_16_male_narration.wav", "motion": "importance chart focus", "duration_mode": "match_audio"},
+    {"slide": 17, "title": "Final Model Decision", "audio": "../audio/slide_17_male_narration.wav", "motion": "decision box emphasis", "duration_mode": "match_audio"},
+    {"slide": 18, "title": "Deployment Simulation", "audio": "../audio/slide_18_male_narration.wav", "motion": "input-output card focus", "duration_mode": "match_audio"},
+    {"slide": 19, "title": "Business Interpretation", "audio": "../audio/slide_19_male_narration.wav", "motion": "strategy pyramid emphasis", "duration_mode": "match_audio"},
+    {"slide": 20, "title": "Final Conclusion", "audio": "../audio/slide_20_male_narration.wav", "motion": "closing infographic hold", "duration_mode": "match_audio"}
+  ]
+}

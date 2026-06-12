@@ -136,8 +136,20 @@ Profit.
 | 20-slide voice narration plan | [hw6_20_slide_voice_narration_plan.md](PPT/hw6_20_slide_voice_narration_plan.md) |
 | 20-slide voice narration CSV | [hw6_20_slide_voice_narration_plan.csv](PPT/hw6_20_slide_voice_narration_plan.csv) |
 | 20-slide PowerPoint with notes | [hw6_50_startups_crispdm_20_slides_with_notes.pptx](PPT/hw6_50_startups_crispdm_20_slides_with_notes.pptx) |
+| 20-slide PowerPoint with embedded male voice | [hw6_50_startups_crispdm_20_slides_male_voice_embedded.pptx](PPT/hw6_50_startups_crispdm_20_slides_male_voice_embedded.pptx) |
 | 20-slide voice-over script | [hw6_20_slide_voiceover_script.txt](PPT/hw6_20_slide_voiceover_script.txt) |
+| Male narration audio manifest | [audio_manifest.csv](PPT/audio/audio_manifest.csv) |
+| Male narration audio folder | [audio](PPT/audio) |
+| Male voice audio generator | [generate_male_voice_audio.ps1](PPT/generate_male_voice_audio.ps1) |
+| Embedded-audio PPT generator | [embed_male_voice_in_ppt.py](PPT/embed_male_voice_in_ppt.py) |
+| HeyGen import package | [heygen-com](PPT/heygen-com) |
+| Hyperframes storyboard package | [hyperframes](PPT/hyperframes) |
 | PowerPoint generator script | [make_hw6_ppt.py](PPT/make_hw6_ppt.py) |
+| NotebookLM package | [NotebookLM](NotebookLM) |
+| NotebookLM source deck | [hw6_notebooklm_20_slide_source_deck.pptx](NotebookLM/hw6_notebooklm_20_slide_source_deck.pptx) |
+| NotebookLM source markdown | [hw6_notebooklm_source.md](NotebookLM/hw6_notebooklm_source.md) |
+| NotebookLM FAQ | [hw6_notebooklm_faq.md](NotebookLM/hw6_notebooklm_faq.md) |
+| NotebookLM study guide | [hw6_notebooklm_study_guide.md](NotebookLM/hw6_notebooklm_study_guide.md) |
 | Final pipeline | [startup_profit_pipeline.joblib](outputs/startup_profit_pipeline.joblib) |
 | V1 model | [startup_profit_model_v1.pkl](startup_profit_model_v1.pkl) |
 | V2 model | [startup_profit_model_v2.pkl](startup_profit_model_v2.pkl) |

@@ -1,0 +1,9 @@
+{
+  "final_features": [
+    "R&D Spend",
+    "Marketing Spend"
+  ],
+  "best_regression_model": "Random Forest",
+  "kmeans_silhouette": 0.3975739438468291,
+  "pca_explained_variance": 0.9231077058936379
+}

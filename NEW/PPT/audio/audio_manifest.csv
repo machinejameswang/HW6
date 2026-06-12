@@ -1,0 +1,21 @@
+﻿slide,title,audio_file,voice,rate,volume
+1,"HW6: Kaggle 50 Startups Profit Prediction",slide_01_male_narration.wav,"Microsoft David Desktop",-1,95
+2,"Project Objective",slide_02_male_narration.wav,"Microsoft David Desktop",-1,95
+3,"Dataset Overview",slide_03_male_narration.wav,"Microsoft David Desktop",-1,95
+4,"CRISP-DM Workflow",slide_04_male_narration.wav,"Microsoft David Desktop",-1,95
+5,"Business Understanding",slide_05_male_narration.wav,"Microsoft David Desktop",-1,95
+6,"Expert Panel View",slide_06_male_narration.wav,"Microsoft David Desktop",-1,95
+7,"Data Understanding",slide_07_male_narration.wav,"Microsoft David Desktop",-1,95
+8,"Feature Meaning",slide_08_male_narration.wav,"Microsoft David Desktop",-1,95
+9,"Correlation Results",slide_09_male_narration.wav,"Microsoft David Desktop",-1,95
+10,"Data Preparation",slide_10_male_narration.wav,"Microsoft David Desktop",-1,95
+11,"Modeling Strategy",slide_11_male_narration.wav,"Microsoft David Desktop",-1,95
+12,"Model Experiments",slide_12_male_narration.wav,"Microsoft David Desktop",-1,95
+13,"Evaluation Metrics",slide_13_male_narration.wav,"Microsoft David Desktop",-1,95
+14,"Model Comparison",slide_14_male_narration.wav,"Microsoft David Desktop",-1,95
+15,"Feature Selection Evidence",slide_15_male_narration.wav,"Microsoft David Desktop",-1,95
+16,"Random Forest Importance",slide_16_male_narration.wav,"Microsoft David Desktop",-1,95
+17,"Final Model Decision",slide_17_male_narration.wav,"Microsoft David Desktop",-1,95
+18,"Deployment Simulation",slide_18_male_narration.wav,"Microsoft David Desktop",-1,95
+19,"Business Interpretation",slide_19_male_narration.wav,"Microsoft David Desktop",-1,95
+20,"Final Conclusion",slide_20_male_narration.wav,"Microsoft David Desktop",-1,95

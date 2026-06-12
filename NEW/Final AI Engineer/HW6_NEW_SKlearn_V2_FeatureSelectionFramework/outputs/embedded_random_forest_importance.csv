@@ -1,0 +1,6 @@
+Feature,RF_Importance,Embedded_RF_Selected
+R&D Spend,0.8991081025673798,True
+Marketing Spend,0.08825568807816529,True
+Administration,0.0074264695889904595,False
+State_New York,0.003395351396803814,False
+State_Florida,0.0018143883686604187,False

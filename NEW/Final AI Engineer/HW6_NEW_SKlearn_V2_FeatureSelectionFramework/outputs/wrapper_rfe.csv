@@ -1,0 +1,6 @@
+Feature,RFE_Rank,Wrapper_RFE_Selected
+Marketing Spend,1,True
+R&D Spend,1,True
+Administration,2,False
+State_New York,3,False
+State_Florida,4,False

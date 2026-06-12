@@ -1,0 +1,6 @@
+Feature,Pearson_Correlation,Filter_Pearson_Selected,VIF,Filter_VIF_Selected,F_score,p_value,Filter_SelectKBest_Selected,RFE_Rank,Wrapper_RFE_Selected,LASSO_Coefficient,AbsCoefficient,Embedded_LASSO_Selected,RF_Importance,Embedded_RF_Selected,Filter_Score,Wrapper_Score,Embedded_Score,Total_Votes,Decision
+R&D Spend,0.9656139710159339,True,2.428142632221234,True,13767.572353493406,0.0,True,1,True,35807.705953419274,35807.705953419274,True,0.8991081025673798,True,3,1,2,6,Keep
+Marketing Spend,0.7429347386245749,True,2.287987992688069,True,1229.4400456889337,3.4825550105852075e-176,True,1,True,3686.402326609649,3686.402326609649,True,0.08825568807816529,True,3,1,2,6,Keep
+Administration,0.19870327907789595,False,1.1716170917581115,True,41.023768291119616,2.312572927142837e-10,False,2,False,-277.42831930758774,277.42831930758774,True,0.0074264695889904595,False,1,0,1,2,Optional/Remove
+State_New York,,False,,False,0.9472583638022676,0.3306539741407566,False,3,False,0.0,0.0,False,0.003395351396803814,False,0,0,0,0,Optional/Remove
+State_Florida,,False,,False,14.09365055839942,0.00018397509051109521,False,4,False,0.0,0.0,False,0.0018143883686604187,False,0,0,0,0,Optional/Remove

@@ -1,0 +1,6 @@
+Feature,LASSO_Coefficient,AbsCoefficient,Embedded_LASSO_Selected
+R&D Spend,35807.705953419274,35807.705953419274,True
+Administration,-277.42831930758774,277.42831930758774,True
+Marketing Spend,3686.402326609649,3686.402326609649,True
+State_Florida,0.0,0.0,False
+State_New York,0.0,0.0,False
